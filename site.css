@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #343a40;
+    padding: 15px 0; /* Ajuste o padding conforme necessário */
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1, p {
+    margin: 5px 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+.skills {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.skill-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.projects, .experience {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.projects li, .experience li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.contact a:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px 0; /* Ajuste o padding para telas menores */
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .skills span {
+        margin: 10px 5px;
+    }
+
+    .projects li, .experience li {
+        margin-bottom: 10px;
+        padding: 15px;
+    }
+}
